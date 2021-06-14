@@ -1,0 +1,142 @@
+.info-label {
+  padding: 15px 0px 0px 0px;
+  width: 220px;
+}
+
+#createbutton {
+  margin: 15px 0px 0px 10px;
+}
+
+#crest-background {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#symbol-btn {
+  margin: 10px 0px 0px 10px;
+}
+
+#symbolLabel {
+  width: auto;
+}
+
+.color-input {
+  float: left;
+  clear: none;
+  margin: 15px 0px 0px 0px;
+}
+
+.svg-style-base {
+  width: 300px;
+  display: flex;
+  z-index: 1 !important;
+}
+
+.crest-image {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 180px;
+}
+
+.svg-style-banner {
+  width: 500px;
+  position: static;
+  z-index: 0 !important;
+}
+
+#crest-banner-upper {
+  margin-bottom: 135px;
+  z-index: 0 !important;
+}
+
+#crest-banner-lower {
+  z-index: 0 !important;
+}
+
+.crest-text {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  z-index: 2;
+}
+
+#crest-name {
+  margin-top: 130px;
+}
+
+#crest-motto {
+  margin-top: 535px;
+}
+
+.svg-style-symbol {
+  height: 50%;
+  display: flex;
+  z-index: 2 !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.symbol-normal {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.symbol-small {
+  width: 100px;
+}
+
+.symbol-image {
+  margin-top: 220px;
+  z-index: 2 !important;
+}
+
+.colors-icons {
+  flex: 10%;
+  padding: 65px 0px 0px 38%;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.color-icon {
+  height: 100px;
+  width: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.color-icon:hover {
+  background-color: transparent !important;
+}
+
+.colors-icons-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#newcrest-btn {
+  margin-right: 5px;
+}
+
+#savecrest-btn {
+  margin-left: 5px;
+}
+
+#color-icon-modal {
+  z-index: 3 !important;
+}

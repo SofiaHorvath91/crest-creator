@@ -1,0 +1,53 @@
+.container-left,
+.container-left-icons {
+  flex: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+.container-right {
+  flex: 70%;
+  padding: 0;
+  margin: 0;
+}
+
+.symbol-select-div {
+  float: left;
+  clear: none;
+}
+
+.symboldiv {
+  margin-left: 10px;
+}
+
+.symbols_radio {
+  float: left;
+  clear: none;
+  margin: 7px 0 0 2px;
+}
+
+.symbols_label {
+  font-size: 20px;
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 1em 0px 8px;
+}
+
+#createbutton {
+  margin: 15px 0px 15px 15px;
+}
+
+.svg-style{
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.svg-style-normal {
+  width: 90%;
+}
+
+.svg-style-small {
+  width: 50%;
+}

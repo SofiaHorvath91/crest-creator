@@ -1,0 +1,61 @@
+.fav-color-icon {
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.fav-icon-big {
+  height: 200px;
+  width: 200px;
+  font-size: 30px;
+  margin: 0px 10px 0px 10px;
+  background-color: #212529;
+  color: white;
+  cursor: default;
+}
+
+.smalls {
+  height: 150px;
+  width: 150px;
+  font-size: 22px;
+  margin: 0px 10px 0px 10px;
+}
+
+.fav-icon-small {
+  padding-top: 30px;
+  color: #212529 !important;
+}
+
+.fav-icon-small-hover {
+  padding-top: 60px;
+  background-color: #212529 !important;
+}
+
+.fav-icon-big:hover {
+  background-color: transparent !important;
+  color: #212529;
+}
+
+#symbol-favourite {
+  padding-top: 80px;
+}
+
+#symbol-favourite:hover {
+  padding-top: 30px;
+}
+
+#base-favourite {
+  font-size: 22px;
+  padding-top: 70px;
+}
+
+#category-favourite {
+  padding-top: 40px;
+}
+
+#font-favourite {
+  padding-top: 60px;
+}

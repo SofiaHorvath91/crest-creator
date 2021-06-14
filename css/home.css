@@ -1,0 +1,27 @@
+.container-row{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.image-container{
+    margin:auto;
+    display:flex;
+    width:auto;
+    padding: 10px 0px 10px 0px;
+    align-items:center;
+}
+
+.main-image{
+    height:100%;
+    object-fit: cover;
+}
+
+#home-main-image{
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+#go-creator-btn{
+    margin-top: 15px;
+}

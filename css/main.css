@@ -1,0 +1,271 @@
+@import url('../css/home.css');
+@import url('../css/colors.css');
+@import url('../css/symbols.css');
+@import url('../css/creator.css');
+@import url('../css/feedback.css');
+@import url('../css/favourites.css');
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Eczar, serif;
+}
+
+/* Body */
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 20px;
+}
+
+.background {
+  background-image: url('../img/cc-bg.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+}
+
+.menu:hover {
+  transition: 0.5s;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Navbar */
+
+.navbar,
+.navbar-container {
+  width: 100%;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+.navbar li a {
+  color: #212529 !important;
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar li a:hover {
+  color: rgb(98, 97, 97) !important;
+}
+
+.navbar-toggler {
+  margin: 5px 10px 0px 0px;
+  background-color: #212529;
+  float: right;
+}
+
+.logo-img {
+  width: 60px;
+  height: 45px;
+  float: left;
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.logo-img:hover {
+  transition: 0.5s;
+  -webkit-filter: invert(1);
+  filter: invert(0.85);
+}
+
+/* Handle resize */
+@media screen and (max-width: 1300px) {
+  .colors-icons {
+    padding-left: 36%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .colors-icons {
+    padding-left: 34%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .hidden {
+    display: none;
+  }
+
+  .left-right-divs {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .container-left {
+    margin: auto;
+    width: auto;
+    align-items: center;
+  }
+
+  .container-right {
+    margin-bottom: 0px;
+  }
+
+  #symbols-form {
+    margin-left: 10%;
+    width: 300px;
+    max-width: 300px;
+  }
+
+  #creationinfos {
+    width: 400px;
+    max-width: 400px;
+    margin: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .crest-image,
+  .crest-text {
+    width: 100%;
+  }
+
+  .colors-icons {
+    width: 100%;
+    flex: 100%;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    padding: 0%;
+  }
+
+  .colors-icons-container {
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fav-icon-big {
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    margin: 0px 2px 0px 2px;
+  }
+
+  #base-favourite {
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  #base-favourite:hover {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #font-favourite {
+    padding-top: 25px;
+  }
+
+  #fav-symbol-svg {
+    width: 100px;
+  }
+
+  #symbol-favourite {
+    padding-top: 35px;
+    font-size: 9px;
+  }
+
+  #symbol-favourite:hover {
+    padding: 0px 20px 0px 0px;
+  }
+
+  #category-favourite {
+    padding-top: 15px;
+  }
+
+  .smalls {
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .fav-icon-small {
+    padding-top: 10px;
+  }
+
+  .fav-icon-small-hover {
+    padding-top: 25px;
+    background-color: #212529 !important;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .color-icon {
+    height: 52px;
+    width: 52px;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 768px){
+  #crest-name.mobile {
+    margin-top: 65% !important;
+    font-size: 22px !important;
+  }
+
+  #crest-name.finish-mobile{
+    margin-top: 25% !important;
+    font-size: 22px !important;
+  }
+
+  #crest-motto.mobile {
+    margin-top:179% !important;
+    font-size: 22px !important;
+  }
+
+  #crest-motto.finish-mobile{
+    margin-top: 119% !important;
+    font-size: 22px !important;
+  }
+
+  #crest-base.mobile{
+    margin-top: 79% !important;
+  }
+
+  #crest-base.finish-mobile{
+    margin-top: 36.5% !important;
+  }
+
+  .symbol-image.mobile {
+    margin-top: 88% !important;
+  }
+
+  .symbol-image.finish-mobile {
+    margin-top: 40% !important;
+  }
+
+  .svg-style-base.mobile{
+    width:85% !important;
+  }
+
+  .svg-style-base.finish-mobile{
+    width:250px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html, body {
+    height:120vh;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+}
